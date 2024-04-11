@@ -33,7 +33,7 @@ describe('Components/Promo Video', () => {
     });
 
     it('should have the title attribute for the iframe', () => {
-      expect(frame.getAttribute('title')).to.equal('Blissfest Promotional Video');
+      expect(frame.getAttribute('title')).to.equal('BlissRI Promotional Video');
     });
   });
 

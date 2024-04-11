@@ -21,7 +21,7 @@ export default class NewsletterSignup extends HTMLElement {
           <p
             class="text-white mb-6 m-auto"
           >
-              Subscribe to stay up to date with the latest Blissfest news and updates!
+              Subscribe to stay up to date with the latest BlissRI news and updates!
           </p>
           <form
             name="newsletter-signup"

@@ -16,7 +16,7 @@ export default class Header extends HTMLElement {
                     /assets/images/blissfest-logo-md.webp 750w,
                     /assets/images/blissfest-logo-lg.webp 1000w,
                     /assets/images/blissfest-logo-xl.webp 1500w"
-            alt="Blissfest logo"
+            alt="BlissRI logo"
           />
         </div>
 

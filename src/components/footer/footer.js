@@ -8,13 +8,13 @@ export default class Footer extends HTMLElement {
           <div class="flex gap-x-4 justify-center mb-4">
             <a
               href="https://www.facebook.com/blissfestri/"
-              aria-label="Blissfest Facebook page"
+              aria-label="BlissRI Facebook page"
               target="_blank"
               class="ml-2 mr-2"
             >
               <img
                 src="/assets/images/facebook-icon.png"
-                alt="Blissfest Facebook page"
+                alt="BlissRI Facebook page"
                 width="40"
                 height="40"
                 loading="lazy"
@@ -36,13 +36,13 @@ export default class Footer extends HTMLElement {
             </a>
             <a
               href="https://www.instagram.com/blissfestri/"
-              aria-label="Blissfest Instagram page"
+              aria-label="BlissRI Instagram page"
               target="_blank"
               class="ml-2 mr-2"
             >
               <img
                 src="/assets/images/instagram-icon.png"
-                alt="Blissfest Instagram page"
+                alt="BlissRI Instagram page"
                 width="40"
                 height="40"
                 loading="lazy"
@@ -72,7 +72,7 @@ export default class Footer extends HTMLElement {
         >
           <a
             href="/privacy-policy/"
-            title="Blissfest Privacy Policy" class="underline"
+            title="BlissRI Privacy Policy" class="underline"
           >
             Privacy Policy</a>
 
@@ -80,7 +80,7 @@ export default class Footer extends HTMLElement {
 
           <a
             href="/terms-of-use/"
-            title="Blissfest Terms of Use" class="underline"
+            title="BlissRI Terms of Use" class="underline"
           >
             Terms of Use</a>
 
@@ -88,7 +88,7 @@ export default class Footer extends HTMLElement {
 
             <a
               href="/archives/"
-              title="Blissfest Archives" class="underline"
+              title="BlissRI Archives" class="underline"
             >
               Archives</a>
         </small>

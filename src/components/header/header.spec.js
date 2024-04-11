@@ -21,7 +21,7 @@ describe('Components/Header', () => {
       const bannerImage = document.querySelectorAll('header img');
 
       expect(bannerImage.length).to.equal(1);
-      expect(bannerImage[0].getAttribute('alt')).to.equal('Blissfest logo');
+      expect(bannerImage[0].getAttribute('alt')).to.equal('BlissRI logo');
     });
   });
 

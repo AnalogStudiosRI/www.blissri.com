@@ -35,7 +35,7 @@ export default class Footer extends HTMLElement {
               />
             </a>
             <a
-              href="https://www.instagram.com/blissfestri/"
+              href="https://www.instagram.com/bliss_ri/"
               aria-label="BlissRI Instagram page"
               target="_blank"
               class="ml-2 mr-2"

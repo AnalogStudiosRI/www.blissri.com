@@ -7,7 +7,7 @@ export default class Footer extends HTMLElement {
         <div class="bg-primary pb-4">
           <div class="flex gap-x-4 justify-center mb-4">
             <a
-              href="https://www.facebook.com/blissfestri/"
+              href="https://www.facebook.com/blissri/"
               aria-label="BlissRI Facebook page"
               target="_blank"
               class="ml-2 mr-2"

@@ -27,7 +27,7 @@ describe('Components/Newsletter Signup', () => {
       expect(image.alt).to.equal('popped open bottle with music sheet');
       expect(heading.textContent.trim()).to.equal('Stay in Touch!');
       expect(tagLine.textContent.trim()).to.equal(
-        'Subscribe to stay up to date with the latest Blissfest news and updates!'
+        'Subscribe to stay up to date with the latest BlissRI news and updates!'
       );
       expect(labels[0].textContent.trim()).to.equal('Name (optional)');
       expect(labels[1].textContent.trim()).to.equal('Email Address');

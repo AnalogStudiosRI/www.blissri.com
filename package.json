@@ -1,17 +1,17 @@
 {
-  "name": "www.blissfestri.com",
+  "name": "www.blissri.com",
   "version": "0.0.1",
-  "description": "Website for Blissfest",
+  "description": "Website for BlissRI",
   "type": "module",
   "author": "Owen Buckley <owen@thegreenhouse.io>",
-  "homepage": "https://github.com/AnalogStudiosRI/www.blissfestri.com#readme",
+  "homepage": "https://github.com/AnalogStudiosRI/www.blissri.com#readme",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AnalogStudiosRI/www.blissfestri.com.git"
+    "url": "git+https://github.com/AnalogStudiosRI/www.blissri.com.git"
   },
   "keywords": [
-    "Blissfest",
+    "BlissRI",
     "Analog Studios",
     "Rhode Island"
   ],

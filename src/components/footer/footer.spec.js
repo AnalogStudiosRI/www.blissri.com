@@ -25,7 +25,7 @@ describe('Components/Footer', () => {
 
     describe('Social Icon Links', () => {
       it('should have the expected Facebook social link icon', () => {
-        const facebookLink = document.querySelectorAll('a[aria-label="Blissfest Facebook page"]');
+        const facebookLink = document.querySelectorAll('a[aria-label="BlissRI Facebook page"]');
         const facebookImage = facebookLink[0].querySelectorAll('img');
 
         expect(facebookLink.length).to.equal(1);
@@ -41,7 +41,7 @@ describe('Components/Footer', () => {
       });
 
       it('should have the expected Instagram social link icon', () => {
-        const instagramLink = document.querySelectorAll('a[aria-label="Blissfest Instagram page"]');
+        const instagramLink = document.querySelectorAll('a[aria-label="BlissRI Instagram page"]');
         const instagramImage = instagramLink[0].querySelectorAll('img');
 
         expect(instagramLink.length).to.equal(1);

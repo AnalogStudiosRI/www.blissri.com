@@ -1,10 +1,10 @@
-# www.blissfestri.com
+# www.blissri.com
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e47ac2ab-d916-4953-aab3-33bcbee8a2f6/deploy-status)](https://app.netlify.com/sites/cheerful-melomakarona-41a6ad/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/dce3f8af-d6a9-4fc0-b573-6ab0940a6ade/deploy-status)](https://app.netlify.com/sites/thriving-kataifi-2b287f/deploys)
 
 ## Overview
 
-This is the frontend repo for the [Blissfest RI website](https://www.blissfestri.com) built with [Greenwood](https://www.greenwoodjs.io/).🏃‍♂️
+This is the frontend repo for the [BlissRI website](https://www.blissri.com) built with [Greenwood](https://www.greenwoodjs.io/).🏃‍♂️
 
 ## Setup
 

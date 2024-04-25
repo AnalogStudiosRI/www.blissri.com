@@ -1,20 +1,23 @@
+/** @type { import('@storybook/web-components-vite').StorybookConfig } */
 const config = {
-  staticDirs: ['../src'],
-  stories: ['../src/**/*.stories.mdx', '../src/**/*.stories.@(js|jsx|ts|tsx)'],
-  addons: ['@storybook/addon-links', '@storybook/addon-essentials', {
-    name: '@storybook/addon-postcss',
-    options: {
-      postcssLoaderOptions: {
-        implementation: require('postcss')
-      }
-    }
-  }],
+  stories: [
+    '../src/**/*.mdx',
+    '../src/**/*.stories.@(js|jsx|mjs|ts|tsx|msx)'
+  ],
+  addons: [
+    '@storybook/addon-links',
+    '@storybook/addon-essentials',
+    '@chromatic-com/storybook'
+  ],
   framework: {
-    name: '@storybook/web-components-webpack5',
+    name: '@storybook/web-components-vite',
     options: {}
   },
+  staticDirs: [
+    '../src'
+  ],
   docs: {
-    autodocs: true
+    autodocs: 'tag'
   }
 };
 

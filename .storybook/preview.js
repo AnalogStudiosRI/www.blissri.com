@@ -1,11 +1,13 @@
 import '../src/styles/main.css';
 
+/** @type { import('@storybook/web-components').Preview } */
 const preview = {
-  actions: { argTypesRegex: '^on[A-Z].*' },
-  controls: {
-    matchers: {
-      color: /(background|color)$/i,
-      date: /Date$/
+  parameters: {
+    controls: {
+      matchers: {
+        color: /(background|color)$/i,
+        date: /Date$/i
+      }
     }
   }
 };

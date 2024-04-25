@@ -21,6 +21,9 @@ export default class Navigation extends HTMLElement {
         name: 'News',
         url: '/news/'
       }, {
+        name: 'Photos',
+        url: '/photos/'
+      }, {
         name: 'Contact',
         url: '/contact/'
       }

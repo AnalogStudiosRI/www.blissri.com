@@ -4,7 +4,7 @@
 
 ## Overview
 
-This is the frontend repo for the [BlissRI website](https://www.blissri.com) built with [Greenwood](https://www.greenwoodjs.io/).🏃‍♂️
+This is the frontend repo for the [BlissRI website](https://www.blissri.com) built with [Greenwood](https://www.greenwoodjs.io/). ♻️ 
 
 ## Setup
 

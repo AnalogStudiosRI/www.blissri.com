@@ -1,13 +1,12 @@
 diff --git a/node_modules/@greenwood/cli/src/plugins/resource/plugin-standard-html.js b/node_modules/@greenwood/cli/src/plugins/resource/plugin-standard-html.js
-index 8f06225..0328e32 100644
+index 8f06225..8e5b310 100644
 --- a/node_modules/@greenwood/cli/src/plugins/resource/plugin-standard-html.js
 +++ b/node_modules/@greenwood/cli/src/plugins/resource/plugin-standard-html.js
-@@ -105,7 +105,25 @@ class StandardHtmlResource extends ResourceInterface {
+@@ -105,7 +105,24 @@ class StandardHtmlResource extends ResourceInterface {
      }
  
      if (matchingRoute.isSSR) {
 -      const routeModuleLocationUrl = new URL(`./${matchingRoute.filename}`, pagesDir);
-+      console.log({ matchingRoute });
 +      // {
 +      //   matchingRoute: {
 +      //     data: {},
@@ -25,7 +24,7 @@ index 8f06225..0328e32 100644
 +      //     prerender: false
 +      //   }
 +      // }
-+      const routeModuleLocationUrl = new URL(`./${matchingRoute.route.replace(`${matchingRoute.id}/`, `${matchingRoute.id}.js`)}`, pagesDir);
++      const routeModuleLocationUrl = new URL(`.${matchingRoute.route.replace(`${matchingRoute.id}/`, `${matchingRoute.id}.js`)}`, pagesDir);
        const routeWorkerUrl = this.compilation.config.plugins.find(plugin => plugin.type === 'renderer').provider().executeModuleUrl;
  
        await new Promise(async (resolve, reject) => {

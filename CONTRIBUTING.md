@@ -7,6 +7,9 @@ To develop for the project, please follow the steps in the _README.md_ for getti
 
 ## Pull Requests
 
+> [!IMPORTANT]  
+> _As of now, GitHub has no way [to set the default repo when opening PRs against a forked repo](https://github.com/orgs/community/discussions/11729), so make sure you pick the **www.blissri.com** repo, and not the **www.blissfestri.com** repo / upstream._
+
 Pull requests are the best!  To best help facilitate contributions to the project, here are some guidelines we would like to follow:
 
 - We generally prefer an issue be opened first to help promote discussion outside of the code review process to help align on, or ask questions about, any expectations.

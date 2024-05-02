@@ -4,20 +4,6 @@ export default class PhotoPage extends HTMLElement {
   async connectedCallback() {
     const assets = await getAssetsByFolder('Blissfest 2023');
 
-    // asset_id: 'fdcacf3d644a2ea3aafae025c91e8fda',
-    // public_id: 'Blissfest 2023/IMG_2172_ku9zvr',
-    // format: 'mov',
-    // version: 1714068135,
-    // resource_type: 'video',
-    // type: 'upload',
-    // created_at: '2024-04-25T18:02:15Z',
-    // bytes: 41276141,
-    // width: 1080,
-    // height: 1920,
-    // folder: 'Blissfest 2023',
-    // url: 'http://res.cloudinary.com/dmswtygse/video/upload/v1714068135/Blissfest%202023/IMG_2172_ku9zvr.mov',
-    // secure_url: 'https://res.cloudinary.com/dmswtygse/video/upload/v1714068135/Blissfest%202023/IMG_2172_ku9zvr.mov',
-    // last_updated: [Object]
     this.innerHTML = `
       <h1 class="font-secondary text-center text-primary text-5xl">
         Blissfest 2023
@@ -25,12 +11,30 @@ export default class PhotoPage extends HTMLElement {
 
       ${
         assets.map((asset) => {
-          const { url, format } = asset;
+          const { format, height, width, publicId, resourceType } = asset;
 
-          if (format === 'jpg') {
-            return `<img style="width: 50%; margin: 0 auto;" src="${url}" alt="Blissfest 2023" loading="lazy" />`;
+          if (resourceType === 'image') {
+            return `
+                <img
+                height="${height}"
+                width="${width}"
+                style="width: 50%; margin: 0 auto; border: 1px dotted black"
+                src="https://res.cloudinary.com/dmswtygse/image/upload/c_scale,h_400/f_auto/${publicId}"
+                alt="Blissfest 2023"
+                loading="lazy"
+              />`
+            ;
+          } else if (resourceType === 'video') {
+            return `
+              <video
+                controls
+                style="width: 50%; margin: 0 auto; border: 1px dotted black"
+              >
+                <source src="https://res.cloudinary.com/dmswtygse/video/upload/f_mp4/${publicId}" type="video/mp4" />
+              </video>
+            `;
           } else {
-            return `<p style="width: 50%; margin: 0 auto;">TODO => ${format}<p>`;
+            console.debug('Unsupported format detected => ', { format, publicId });
           }
         }).join('')
       }

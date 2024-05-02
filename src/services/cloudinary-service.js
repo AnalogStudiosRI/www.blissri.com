@@ -26,7 +26,16 @@ async function getAssetsByFolder(folderName) {
     ]);
 
     assets = [...images.resources, ...videos.resources]
-      .filter((asset) => asset.folder === folderName);
+      .filter((asset) => asset.folder === folderName)
+      .map((asset) => {
+        return {
+          ...asset,
+          assetId: asset.asset_id,
+          publicId: asset.public_id,
+          secureUrl: asset.secure_url,
+          resourceType: asset.resource_type
+        };
+      });
   } catch (e) {
     console.error({ e });
   }

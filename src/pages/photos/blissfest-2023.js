@@ -5,7 +5,7 @@ import '../../components/media-card/media-card.js';
 // https://flowbite.com/docs/components/gallery/
 export default class PhotoPage extends HTMLElement {
   async connectedCallback() {
-    const STACK_HEIGHT = 2;
+    const STACK_HEIGHT = 3;
     const assets = await getAssetsByFolder('Blissfest 2023');
 
     this.innerHTML = `

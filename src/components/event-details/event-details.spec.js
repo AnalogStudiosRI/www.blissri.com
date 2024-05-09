@@ -32,8 +32,8 @@ describe('Components/Event Details', () => {
       const headings = document.getElementsByTagName('h2');
 
       expect(headings.length).to.equal(2);
-      expect(formatText(headings[0].textContent)).to.equal('7%CB%9929%CB%992023');
-      expect(formatText(headings[1].textContent)).to.equal('5%3A00pmto11%3A00pm');
+      expect(formatText(headings[0].textContent)).to.equal('7%CB%9927%CB%992024');
+      expect(formatText(headings[1].textContent)).to.equal('6%3A30pmto12%3A30am');
     });
 
     it('should have the expected location heading text and logo', () => {

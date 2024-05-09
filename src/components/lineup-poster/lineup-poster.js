@@ -12,7 +12,7 @@ function formatSubListItem(item, idx) {
           alt="Artist name separator"
           width="85"
           height=85"
-          class="hidden m-2 md:inline w-1/12 scale-50"
+          class="hidden md:inline w-1/12 scale-50"
         />
         ${name}
       </li>
@@ -50,13 +50,13 @@ export default class LineupPoster extends HTMLElement {
           </ul>
 
           <ul
-            class="font-secondary text-center text-5xl uppercase md:w-10/12 md:ml-auto md:mr-auto"
+            class="font-secondary text-center text-5xl uppercase md:w-11/12 xl:w-full md:ml-auto md:mr-auto"
           >
             ${coHeadlinersList}
           </ul>
 
           <ul
-            class="text-center font-secondary font-medium text-5xl uppercase md:w-10/12 md:ml-auto md:mr-auto"
+            class="text-center font-secondary font-medium text-5xl uppercase md:w-11/12 xl:w-full md:ml-auto md:mr-auto"
           >
             ${openersList}
           </ul>

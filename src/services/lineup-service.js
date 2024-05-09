@@ -36,7 +36,7 @@ const LINEUP = [{
   apple: 'https://music.apple.com/us/artist/bill-bartholomew/279548573',
   startTime: null
 }, {
-  isCoHeadliner: true,
+  isOpener: true,
   name: 'Gabriela Rossi',
   bio: '',
   picture: '',
@@ -48,7 +48,7 @@ const LINEUP = [{
   apple: '',
   startTime: null
 }, {
-  isCoHeadliner: true,
+  isOpener: true,
   name: 'Thee Phibbs',
   bio: '',
   picture: '',
@@ -60,7 +60,7 @@ const LINEUP = [{
   apple: '',
   startTime: null
 }, {
-  isCoHeadliner: true,
+  isOpener: true,
   name: 'Morgan Lane',
   bio: '',
   picture: '',

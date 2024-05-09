@@ -60,11 +60,11 @@ export default class EventDetails extends HTMLElement {
         <h2
           class="text-primary font-secondary text-center text-5xl mb-1 sm:text-justify sm:text-4xl sm:pl-96 sm:ml-12 sm:pt-2 md:pt-4 md:text-5xl md:pl-80 md:ml-28 md:mt-1 lg:text-5xl lg:pl-96 lg:ml-40"
         >
-          <span>7 &dot; 29 &dot; 2023</span>
+          <span>7 &dot; 27 &dot; 2024</span>
         </h2>
 
         <h2 class="text-accent font-secondary text-center text-4xl sm:text-3xl sm:text-justify sm:pl-80 sm:ml-20 md:text-4xl md:pl-80 md:mt-2 md:ml-24 lg:text-5xl lg:pl-96 lg:ml-24">
-          <span>5:00pm to 11:00pm</span>
+          <span>6:30pm to 12:30am</span>
         </h2>
 
         <img

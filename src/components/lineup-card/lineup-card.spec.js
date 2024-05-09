@@ -1,5 +1,4 @@
 import { expect } from '@esm-bundle/chai';
-import { getLineup } from '../../services/lineup-service.js';
 import './lineup-card.js';
 
 function getFormattedTitle(name, social) {
@@ -7,7 +6,19 @@ function getFormattedTitle(name, social) {
 }
 
 describe('Components/Lineup Card', () => {
-  const MOCK_ARTIST = getLineup()[0];
+  const MOCK_ARTIST = {
+    isHeadliner: true,
+    name: 'Jabbawaukee',
+    bio: 'Jabbawaukee is a Southern New England based quartet playing psychedelic funk and jam rock!',
+    picture: '/assets/images/lineup/jabbawaukee.webp',
+    facebook: 'https://www.facebook.com/JABBAWAUKEE/',
+    instagram: 'https://www.instagram.com/jabbawaukee_band/',
+    website: 'https://www.jabbawaukee.com',
+    spotify: 'https://open.spotify.com/artist/1CBlzYSiHvEO86x2UO85u4',
+    youtube: 'https://www.youtube.com/channel/UCjNsiyNaoh7-Xp6rtCgq4BA',
+    apple: 'https://music.apple.com/us/artist/jabbawaukee/1593104536',
+    startTime: 1690683300000 // 10:15pm
+  };
   let card;
 
   describe('Default Behavior', () => {

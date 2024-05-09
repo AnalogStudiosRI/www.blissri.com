@@ -10,8 +10,8 @@ export default class Header extends HTMLElement {
           <img
             class="inline-block w-3/5 pt-4 pb-4 lg:w-1/3"
             src="/assets/images/bliss-logo-sm.webp"
-            width="500"
-            height="165"
+            width="400"
+            height="400"
             srcset="/assets/images/bliss-logo-sm.webp 500w,
                     /assets/images/bliss-logo-md.webp 750w,
                     /assets/images/bliss-logo-lg.webp 1000w,

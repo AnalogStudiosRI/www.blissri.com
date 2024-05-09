@@ -15,7 +15,7 @@ template: news
 
 We at Analog Studios are excited to announce our return to IYRS for another great event this year; **BlissRI 2024**!   We are thrilled to be hosting our event at the wonderful space IYRS affords us and are happy to announce we are also extending the time this year, with the event now starting at 6:30pm and ending at 12:30am.
 
-Of course our great even wouldn't be possible without all the great acts that will be playing.  Here's who's confirmed so far for this year's event:
+Of course our event wouldn't be possible without all the great acts that will be playing.  Here's who's confirmed so far for this year's event:
 
 - Analog
 - Bill Bartholomew

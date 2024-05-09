@@ -1,16 +1,16 @@
 /* eslint-disable max-len */
 const LINEUP = [{
   isHeadliner: true,
-  name: 'Jabbawaukee',
-  bio: 'Jabbawaukee is a Southern New England based quartet playing psychedelic funk and jam rock!',
-  picture: '/assets/images/lineup/jabbawaukee.webp',
-  facebook: 'https://www.facebook.com/JABBAWAUKEE/',
-  instagram: 'https://www.instagram.com/jabbawaukee_band/',
-  website: 'https://www.jabbawaukee.com',
-  spotify: 'https://open.spotify.com/artist/1CBlzYSiHvEO86x2UO85u4',
-  youtube: 'https://www.youtube.com/channel/UCjNsiyNaoh7-Xp6rtCgq4BA',
-  apple: 'https://music.apple.com/us/artist/jabbawaukee/1593104536',
-  startTime: 1690683300000 // 10:15pm
+  name: 'King Sickabilly Trio',
+  bio: '',
+  picture: '',
+  facebook: '',
+  instagram: '',
+  website: '',
+  spotify: '',
+  youtube: '',
+  apple: '',
+  startTime: null
 }, {
   isCoHeadliner: true,
   name: 'Analog',
@@ -22,7 +22,7 @@ const LINEUP = [{
   spotify: '',
   youtube: 'https://www.youtube.com/channel/UCxs5mxoDpmmR0hRbwsxU7Sg',
   apple: '',
-  startTime: 1690680300000 // 9:25pm
+  startTime: null
 }, {
   isCoHeadliner: true,
   name: 'Bill Bartholomew',
@@ -34,50 +34,43 @@ const LINEUP = [{
   spotify: 'https://open.spotify.com/artist/2lTJtrORdzzAfWQulZrkdD',
   youtube: 'https://www.youtube.com/channel/UCEWfrWiFc_6FdOjkdr21wBw',
   apple: 'https://music.apple.com/us/artist/bill-bartholomew/279548573',
-  startTime: 1690677300000 // 8:35pm
+  startTime: null
 }, {
   isCoHeadliner: true,
-  name: 'The Z-Boys',
-  bio: 'The Z-Boys is a power trio playing surf rock, soul and funk for your listening and dancing pleasure.',
-  picture: '/assets/images/lineup/the-z-boys.webp',
-  facebook: 'https://www.facebook.com/zboystonight/',
-  instagram: 'https://www.instagram.com/zboystonight/',
-  website: 'https://zboystonight.com',
-  spotify: 'https://open.spotify.com/artist/69UMUUtRn8kOqOkF6EqEFl',
-  youtube: 'https://www.youtube.com/zboystonight',
-  apple: 'https://music.apple.com/us/artist/the-z-boys/1192510207',
-  startTime: 1690674300000 // 7:45pm
+  name: 'Gabriela Rossi',
+  bio: '',
+  picture: '',
+  facebook: '',
+  instagram: '',
+  website: '',
+  spotify: 'l',
+  youtube: '',
+  apple: '',
+  startTime: null
 }, {
-  isOpener: true,
-  name: 'jesse the Tree',
-  bio: ' Rhode Island emcee and beatsmith jesse the Tree brings influences ranging from a more traditionally organic and melodic corner of the music world to sounds closer to his own output of hip hop and contemporary underground.   ',
-  picture: '/assets/images/lineup/jesse-the-tree.webp',
-  facebook: 'https://www.facebook.com/jessethetree/',
-  instagram: 'https://www.instagram.com/jessethetree/',
-  website: 'https://www.strangefamousrecords.com/artists/jesse-the-tree/',
-  spotify: 'https://open.spotify.com/artist/4mp2W09kX6MXfCl4R9uYae',
-  youtube: 'https://www.youtube.com/channel/UCazcvHOtjQ7FFyNE3iJuiUA',
-  apple: 'https://music.apple.com/us/artist/jesse-the-tree/1310806252',
-  startTime: 1690671600000 // 7pm
+  isCoHeadliner: true,
+  name: 'Thee Phibbs',
+  bio: '',
+  picture: '',
+  facebook: '',
+  instagram: '',
+  website: '',
+  spotify: '',
+  youtube: '',
+  apple: '',
+  startTime: null
 }, {
-  isOpener: true,
-  name: 'Allysen Callery',
-  bio: 'Allysen Callery is a self taught singer songwriter from Bristol, Rhode Island, whose delicate, mesmerizing sound has been compared to classic British folk artists like Sandy Denny and Nick Drake.',
-  picture: '/assets/images/lineup/allysen-callery.webp',
-  facebook: 'https://www.facebook.com/allysencallerymusic/',
-  instagram: 'https://www.instagram.com/allysencallery/',
-  website: 'https://allysencallerymusic.com',
-  spotify: 'https://open.spotify.com/artist/2p3yVqXhK2pSO47sxuNXmj',
-  youtube: 'https://www.youtube.com/channel/UC_jVd3HqohIpCfWeffwU0Qw',
-  apple: 'https://music.apple.com/us/artist/allysen-callery/274514462',
-  startTime: 1690668900000 // 6:15pm
-}, {
-  isOpener: true,
-  name: 'Nate Farrar',
-  bio: 'As a long time player and supporter of the Newport arts and music scene, Nate Farrar joins our stage with all original, RI inspired Americana Folk.  Mikel Arambarri will be joining him on lap steel, making for a rare duo performance!',
-  picture: '/assets/images/lineup/nate-farrar.webp',
-  instagram: 'https://www.instagram.com/splinter_hippie',
-  startTime: 1690666200000 // 5:30pm
+  isCoHeadliner: true,
+  name: 'Morgan Lane',
+  bio: '',
+  picture: '',
+  facebook: '',
+  instagram: '',
+  website: '',
+  spotify: '',
+  youtube: '',
+  apple: '',
+  startTime: null
 }];
 
 function getLineup(options = {}) {

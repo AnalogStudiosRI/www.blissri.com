@@ -22,7 +22,7 @@ function formatSubListItem(item, idx) {
 export default class LineupPoster extends HTMLElement {
   constructor() {
     super();
-    this.lineup = getLineup({ sortByStartOrder: true }).reverse();
+    this.lineup = getLineup();
   }
 
   connectedCallback() {
@@ -45,18 +45,18 @@ export default class LineupPoster extends HTMLElement {
             Lineup
           </h2>
 
-          <ul class="font-extrabold font-secondary text-center text-5xl uppercase">
+          <ul class="font-secondary text-center text-5xl uppercase">
             <li>${headliner.name}</li>
           </ul>
 
           <ul
-            class="font-semibold font-secondary text-center text-3xl uppercase md:w-10/12 md:ml-auto md:mr-auto"
+            class="font-secondary text-center text-5xl uppercase md:w-10/12 md:ml-auto md:mr-auto"
           >
             ${coHeadlinersList}
           </ul>
 
           <ul
-            class="text-center font-secondary font-medium text-3xl uppercase md:w-10/12 md:ml-auto md:mr-auto"
+            class="text-center font-secondary font-medium text-5xl uppercase md:w-10/12 md:ml-auto md:mr-auto"
           >
             ${openersList}
           </ul>

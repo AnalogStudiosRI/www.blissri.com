@@ -13,11 +13,6 @@ template: news
   alt="Blissfest icon"
 />
 
-<!-- TODO -->
-<!-- name change -->
-<!-- - lineup Museum Legs ? -->
-<!-- - highlight new perks ? -->
-
 We at Analog Studios are excited to announce our return to IYRS for another great event this year; **BlissRI 2024**!   We are once again excited to host our event at the wonderful space IYRS affords us and are happy to anounce we are also extending the time this year, with out event now starting at 6:30pm and ending at 12:30am.
 
 Of course our great even wouldn't be possible without the great acts that will be playing.  Here's who will be playing BlissRI this year!

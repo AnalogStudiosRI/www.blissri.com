@@ -3,12 +3,15 @@
   <head>
     <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
     <script>
+      const EVENT_ID = '902468426357'; // remember to update this in the markup too
+      const WIDGET_TYPE = 'checkout';
+
       globalThis.document.addEventListener('DOMContentLoaded', () => {
         globalThis.EBWidgets.createWidget({
-          widgetType: 'checkout',
-          eventId: '631211098387',
+          widgetType: WIDGET_TYPE,
+          eventId: EVENT_ID,
           modal: true,
-          modalTriggerElementId: 'eventbrite-widget-modal-trigger-631211098387'
+          modalTriggerElementId: `eventbrite-widget-modal-trigger-${EVENT_ID}`
         });
 
         // TODO would be great if this could be conditionally loaded based on desktop breakpoint
@@ -17,9 +20,9 @@
         // https://github.com/AnalogStudiosRI/www.blissri.com/issues/3
         globalThis.EBWidgets.createWidget({
            // Required
-           widgetType: 'checkout',
-           eventId: '631211098387',
-           iframeContainerId: 'eventbrite-widget-container-631211098387',
+           widgetType: WIDGET_TYPE,
+           eventId: EVENT_ID,
+           iframeContainerId: `eventbrite-widget-container-${EVENT_ID}`,
 
            // Optional
            iframeContainerHeight: 700,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
@@ -36,7 +39,7 @@
     </h1>
 
     <div class="text-center mt-4 lg:hidden">
-      <button id="eventbrite-widget-modal-trigger-631211098387" type="button">
+      <button id="eventbrite-widget-modal-trigger-902468426357" type="button">
         <img
           src="/assets/images/get-tickets.webp"
           class="w-2/5 mr-auto ml-auto"
@@ -50,7 +53,7 @@
     <p
       class="text-center text-primary text-xl italic mt-4 mb-4 md:w-3/5 sm:m-auto lg:w-1/2"
     >
-      BlissRI is 21&plus; and will have food and alcoholic beverages available to purchase on-site.  Check out our <a href="/faq/" title="FAQ page" class="underline">FAQ page</a> for more information and details about the event.
+      Please review our <a href="/faq/" title="FAQ page" class="underline">FAQ page</a> for more information and details about the event and our policies.
     </p>
 
     <hr class="mt-4 mb-4 m-auto md:w-2/3"/>
@@ -69,7 +72,7 @@
         General Admission (&dollar;25)
       </h2>
       <p class="font-primary text-primary text-left md:w-3/4">
-        This tickets affords admission for one adult (18+) with access to the entrance gallery, main hall, and vendors gallery.
+        This tickets affords admission for one person with access to the entrance gallery, main hall, and vendors gallery.
       </p>
     </div>
 
@@ -87,14 +90,14 @@
         VIP Package (&dollar;45)
       </h2>
       <p class="font-primary text-primary text-left md:w-3/4">
-        Includes General Admission and access to the mezzanine section and green room, a 10% off merch coupon code, and complimentary snacks and refreshments.
+        Includes General Admission and access to the mezzanine section and green room, a 10&percnt; off merch coupon code, event poster, complimentary snacks and refreshments, and an exclusive video / audio recording of highlights from the event.
       </p>
     </div>
 
     <!-- TODO it is a known issue that for local dev the EventBrite iframe overflows on top of the footer -->
     <!-- https://github.com/AnalogStudiosRI/www.blissri.com/issues/4 -->
     <div
-      id="eventbrite-widget-container-631211098387"
+      id="eventbrite-widget-container-902468426357"
       class="hidden lg:inline-block w-1/3 float-right -mt-72 mr-24 bg-slate-50 h-96 xl:w-2/5"
     ></div>
   </body>

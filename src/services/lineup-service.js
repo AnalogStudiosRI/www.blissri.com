@@ -71,6 +71,18 @@ const LINEUP = [{
   youtube: '',
   apple: '',
   startTime: null
+}, {
+  isOpener: true,
+  name: 'Brian Flamand',
+  bio: '',
+  picture: '',
+  facebook: '',
+  instagram: '',
+  website: '',
+  spotify: '',
+  youtube: '',
+  apple: '',
+  startTime: null
 }];
 
 function getLineup(options = {}) {

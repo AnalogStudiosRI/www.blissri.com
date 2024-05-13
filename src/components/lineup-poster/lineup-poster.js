@@ -12,7 +12,7 @@ function formatSubListItem(item, idx) {
           alt="Artist name separator"
           width="85"
           height=85"
-          class="hidden md:inline w-1/12 scale-50"
+          class="hidden m-2 md:inline w-1/12 scale-50"
         />
         ${name}
       </li>

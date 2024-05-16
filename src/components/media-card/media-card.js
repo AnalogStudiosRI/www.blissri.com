@@ -31,7 +31,7 @@ export default class MediaCard extends HTMLElement {
             controls
             loading="lazy"
           >
-            <source src="${cloudinaryAssetUrl}f_mp4/${encodeURIComponent(publicId)}" type="video/mp4" />
+            <source src="${cloudinaryAssetUrl}f_mp4/${encodeURIComponent(publicId)}#t=0.1" type="video/mp4" />
           </video>
         `;
         break;

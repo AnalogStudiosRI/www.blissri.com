@@ -49,10 +49,10 @@ export default class PhotoGallery extends HTMLElement {
 
           groups[x] += `
             <div>
-              <app-media-card 
+              <bf-media-card 
                 class="h-auto max-w-full rounded-lg"
                 asset='${JSON.stringify({ ...asset, alt: 'Blissfest 2023' }).replace(/'/g, '\\"')}'
-              /></app-media-card>
+              /></bf-media-card>
             </div>
           `;
         });

@@ -44,4 +44,4 @@ export default class MediaCard extends HTMLElement {
   }
 }
 
-customElements.define('app-media-card', MediaCard);
+customElements.define('bf-media-card', MediaCard);

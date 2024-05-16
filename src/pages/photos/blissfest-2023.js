@@ -13,6 +13,6 @@ export default class PhotoPage extends HTMLElement {
       </h1>
 
       <bf-photo-gallery images='${JSON.stringify(assets)}'></bf-photo-gallery>
-     `;
+    `;
   }
 }

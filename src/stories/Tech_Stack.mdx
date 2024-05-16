@@ -35,5 +35,21 @@ Unless you run `localhost` on HTTPS, the full checkout experience will not be av
 
 ### Cloudinary
 
-[Cloudinary](https://cloudinary.com) is an media hosting and on-demand transformation service used to load all the images used for the photo gallery pages.
+[Cloudinary](https://cloudinary.com) is a media hosting and on-demand transformation service used to load all the images used for the photo gallery pages.  It is used on the Photos pages to load images at build time and render them out onto the page.  This requires having an API key to the project's Cloudinary Account.
 
+With those credentials in place, you can load any pages using Cloudinaary by doing the following:
+
+1. Create an _.env_ file with the following values filled in:
+    ```sh
+    CLOUDINARY_CLOUD_NAME=...
+    CLOUDINARY_API_SECRET=...
+    CLOUDINARY_API_KEY=...
+    ```
+1. Use the `:env` suffixed npm scripts in _package.json_, e.g.
+    ```sh
+    # development
+    $ npm run dev:env
+
+    # local production
+    $ npm run serve:env
+    ```

@@ -16,9 +16,12 @@
     "Rhode Island"
   ],
   "scripts": {
-    "dev": "node --env-file=.env ./node_modules/@greenwood/cli/src/index.js develop",
+    "dev": "greenwood develop",
+    "dev:env": "node --env-file=.env ./node_modules/@greenwood/cli/src/index.js develop",
     "build": "greenwood build",
-    "serve": "greenwood build && greenwood serve",
+    "build:env": "node --env-file=.env ./node_modules/@greenwood/cli/src/index.js build",
+    "serve": "npm run build && greenwood serve",
+    "serve:env": "npm run build:env && greenwood serve",
     "story:dev": "storybook dev -p 6006",
     "story:build": "storybook build",
     "story:serve": "npm run clean && npm run story:build && http-server ./storybook-static",

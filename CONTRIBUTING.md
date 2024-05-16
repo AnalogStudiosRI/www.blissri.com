@@ -4,6 +4,9 @@
 
 To develop for the project, please follow the steps in the _README.md_ for getting your system setup for running the various commands available.
 
+## Documentation
+
+Please run the project's Storybook (`npm run story:dev`) and review the various **Overview** sections, in particular the _Styleguide_ and _Tech Stack_.
 
 ## Pull Requests
 

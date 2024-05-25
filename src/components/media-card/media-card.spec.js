@@ -1,31 +1,14 @@
 import { expect } from '@esm-bundle/chai';
 import './media-card.js';
+import { MOCK_IMG_ASSET, MOCK_VIDEO_ASSET } from './mock-data.js';
 
 describe('Components/Media Card', () => {
-  const MOCK_IMG_ASSETS = JSON.stringify({
-    alt: 'test image',
-    format: 'jpg',
-    height: '400',
-    width: '600',
-    publicId: 'test-image-id',
-    resourceType: 'image'
-  });
-
-  const MOCK_VIDEO_ASSETS = JSON.stringify({
-    alt: 'test video',
-    format: 'mp4',
-    height: '400',
-    width: '600',
-    publicId: 'test-video-id',
-    resourceType: 'video'
-  });
-
   let card;
 
   describe('Default Image Behavior', () => {
     before(async () => {
       card = document.createElement('bf-media-card');
-      card.setAttribute('asset', MOCK_IMG_ASSETS);
+      card.setAttribute('asset', JSON.stringify(MOCK_IMG_ASSET));
 
       document.body.appendChild(card);
       await card.updateComplete;
@@ -48,21 +31,21 @@ describe('Components/Media Card', () => {
       const img = card.querySelector('img');
       expect(img).to.not.be.null;
 
-      expect(img.getAttribute('alt')).to.equal('test image');
+      expect(img.getAttribute('alt')).to.equal(MOCK_IMG_ASSET.alt);
     });
 
     it('should render an img with the correct publicId in src', () => {
       const img = card.querySelector('img');
       expect(img).to.not.be.null;
 
-      expect(img.getAttribute('src')).to.contain('test-image-id');
+      expect(img.getAttribute('src')).to.contain(encodeURIComponent(MOCK_IMG_ASSET.publicId));
     });
   });
 
   describe('Default Video Behavior', () => {
     before(async () => {
       card = document.createElement('bf-media-card');
-      card.setAttribute('asset', MOCK_VIDEO_ASSETS);
+      card.setAttribute('asset', JSON.stringify(MOCK_VIDEO_ASSET));
 
       document.body.appendChild(card);
       await card.updateComplete;
@@ -76,7 +59,7 @@ describe('Components/Media Card', () => {
     it('should render a video with the correct publicId in source', () => {
       const videoSource = card.querySelector('source');
       expect(videoSource).to.not.be.null;
-      expect(videoSource.getAttribute('src')).to.contain('test-video-id');
+      expect(videoSource.getAttribute('src')).to.contain(encodeURIComponent(MOCK_VIDEO_ASSET.publicId));
     });
   });
 });

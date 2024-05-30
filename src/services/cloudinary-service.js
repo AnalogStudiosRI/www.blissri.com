@@ -14,8 +14,8 @@ cloudinary.config({
 async function getAssetsByFolder(folderName) {
   let assets = [];
 
-  if (!CLOUDINARY_CLOUD_NAME && !CLOUDINARY_API_KEY && !CLOUDINARY_API_SECRET) {
-    console.warn('**Cloudinary credentials not detected.**');
+  if (!CLOUDINARY_CLOUD_NAME || !CLOUDINARY_API_KEY || !CLOUDINARY_API_SECRET) {
+    console.warn('**Expected Cloudinary credentials not detected.**');
     return assets;
   }
 

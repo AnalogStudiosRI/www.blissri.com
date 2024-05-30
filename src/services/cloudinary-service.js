@@ -2,6 +2,7 @@
 import * as cloudinary from 'cloudinary';
 
 const MAX_RESULTS = 500; // doubt we'll ever hit this limit...
+const { CLOUDINARY_CLOUD_NAME, CLOUDINARY_API_KEY, CLOUDINARY_API_SECRET } = process.env;
 
 cloudinary.config({
   cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
@@ -12,6 +13,11 @@ cloudinary.config({
 // https://cloudinary.com/documentation/admin_api#get_resources_by_asset_folder
 async function getAssetsByFolder(folderName) {
   let assets = [];
+
+  if (!CLOUDINARY_CLOUD_NAME || !CLOUDINARY_API_KEY || !CLOUDINARY_API_SECRET) {
+    console.warn('**Expected Cloudinary credentials not detected.**');
+    return assets;
+  }
 
   try {
     const [images, videos] = await Promise.all([

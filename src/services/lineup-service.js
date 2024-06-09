@@ -37,7 +37,7 @@ const LINEUP = [{
   startTime: null
 }, {
   isOpener: true,
-  name: 'Gabriela Rossi',
+  name: 'Gabriela Rassi',
   bio: '',
   picture: '',
   facebook: '',

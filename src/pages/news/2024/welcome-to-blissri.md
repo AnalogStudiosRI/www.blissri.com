@@ -19,7 +19,7 @@ Of course our event wouldn't be possible without all the great acts that will be
 
 - Analog
 - Bill Bartholomew
-- Gabriela Rossi
+- Gabriela Rassi
 - King Sickabilly Trio
 - Thee Phibbs
 - Morgan Lane

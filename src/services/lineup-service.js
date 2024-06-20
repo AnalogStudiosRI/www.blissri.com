@@ -1,4 +1,6 @@
 /* eslint-disable max-len */
+
+// startTime is in  milliseconds relative to local time (EST)
 const LINEUP = [{
   isHeadliner: true,
   name: 'King Sickabilly Trio',
@@ -12,7 +14,7 @@ const LINEUP = [{
   spotify: 'https://open.spotify.com/artist/5R1tJ0hOsQmyXVKd8Qsgj4?si=-2GaNV1zSuSRh9brXL4FZA',
   youtube: '',
   apple: '',
-  startTime: null
+  startTime: 1721533500000
 }, {
   isCoHeadliner: true,
   name: 'Analog',
@@ -25,7 +27,7 @@ const LINEUP = [{
   spotify: '',
   youtube: 'https://www.youtube.com/channel/UCxs5mxoDpmmR0hRbwsxU7Sg',
   apple: '',
-  startTime: null
+  startTime: 1721530500000
 }, {
   isCoHeadliner: true,
   name: 'Bill Bartholomew',
@@ -39,7 +41,7 @@ const LINEUP = [{
   spotify: 'https://open.spotify.com/artist/2lTJtrORdzzAfWQulZrkdD',
   youtube: 'https://www.youtube.com/channel/UCEWfrWiFc_6FdOjkdr21wBw',
   apple: 'https://music.apple.com/us/artist/bill-bartholomew/279548573',
-  startTime: null
+  startTime: 1721527500000
 }, {
   isOpener: true,
   name: 'Gabriela Rassi',
@@ -51,7 +53,7 @@ const LINEUP = [{
   spotify: 'https://open.spotify.com/album/3XO8ctgSpjJ1SnQubTYSfX?si=lmnFxSzlRAm1zXFYfFFEvw',
   youtube: '',
   apple: '',
-  startTime: null
+  startTime: 1721521800000
 }, {
   isOpener: true,
   name: 'Thee Phibbs',
@@ -65,7 +67,7 @@ const LINEUP = [{
   spotify: 'https://open.spotify.com/artist/5iS6rNHN9YH6wS3tjWMB5C',
   youtube: '',
   apple: '',
-  startTime: null
+  startTime: 1721519100000
 }, {
   isOpener: true,
   name: 'Morgan Lane and the Passengers',
@@ -81,7 +83,7 @@ const LINEUP = [{
   spotify: 'https://open.spotify.com/artist/0BqKOrMv2UjLyjiSzSXDRu?si=gSIMlCXjQwGsPAzF_P4U2g&nd=1&dlsi=da9f260635ef4a95',
   youtube: 'https://www.youtube.com/user/musicbylane',
   apple: '',
-  startTime: null
+  startTime: 1721524500000
 }, {
   isOpener: true,
   name: 'Brian Flamand',
@@ -93,7 +95,7 @@ const LINEUP = [{
   spotify: '',
   youtube: '',
   apple: '',
-  startTime: null
+  startTime: 1721516400000
 }];
 
 function getLineup(options = {}) {

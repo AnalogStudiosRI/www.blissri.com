@@ -19,7 +19,7 @@ const LINEUP = [{
   isCoHeadliner: true,
   name: 'Analog',
   bio: `ANALOG, a rock power trio, has a nostalgic yet original sound.  Dave Flamand&apos;s melodic vocals and brawny guitar licks,
-    is paired with Mason Dubois&apos; leathery bass lines then galvanized into one unit by drummer Eli Sprague.  Check out their new album “8 TracK” Released in May 2024`,
+    is paired with Mason Dubois&apos; leathery bass lines then galvanized into one unit by drummer Eli Sprague.  Check out their new album “8 Track” Released in May 2024`,
   picture: '/assets/images/lineup/analog.webp',
   facebook: '',
   instagram: 'https://www.instagram.com/analog.newport/',

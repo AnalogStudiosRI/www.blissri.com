@@ -78,7 +78,7 @@ const LINEUP = [{
     Dovas Lietuvninkas on cornet, and Jessica Kion on harmonies, they make up the band, Morgan Lane and the Passengers.`,
   picture: '/assets/images/lineup/morgan-lane-and-the-passengers.webp',
   facebook: 'https://www.facebook.com/MorganJohnstonMusic/',
-  instagram: 'https://www.instagram.com/morgan_johnston_music/',
+  instagram: 'https://www.instagram.com/morganlaneandthepassengers/',
   website: 'https://morganjohnstonmusic.com',
   spotify: 'https://open.spotify.com/artist/0BqKOrMv2UjLyjiSzSXDRu?si=gSIMlCXjQwGsPAzF_P4U2g&nd=1&dlsi=da9f260635ef4a95',
   youtube: 'https://www.youtube.com/user/musicbylane',
@@ -87,10 +87,11 @@ const LINEUP = [{
 }, {
   isOpener: true,
   name: 'Brian Flamand',
-  bio: '',
-  picture: '',
+  bio: `Brian Flamand, a high school teacher from the woods of West Greenwich RI, has always been a songwriter and performer.  His signature sound finds a home in your soul and
+    instinctively keeps your toes tapping.  Brian plays regularly on the local scene in Newport and is looking forward to recording an album this year.`,
+  picture: '/assets/images/lineup/brian-flamand.webp',
   facebook: '',
-  instagram: '',
+  instagram: 'https://www.instagram.com/brianflamand/',
   website: '',
   spotify: '',
   youtube: '',

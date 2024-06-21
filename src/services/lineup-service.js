@@ -24,7 +24,7 @@ const LINEUP = [{
   facebook: '',
   instagram: 'https://www.instagram.com/analog.newport/',
   website: 'https://www.analogstudios.net/artists/1',
-  spotify: '',
+  spotify: 'https://open.spotify.com/album/1JwPeXOcRFmc04tbB3Tn6v',
   youtube: 'https://www.youtube.com/channel/UCxs5mxoDpmmR0hRbwsxU7Sg',
   apple: '',
   startTime: 1721530500000

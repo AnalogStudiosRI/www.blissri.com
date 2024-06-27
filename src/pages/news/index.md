@@ -7,6 +7,7 @@ template: news
 
 ## 2024
 
+- [Lineup](/news/2024/lineup/) 📣
 - [Welcome to BlissRI!](/news/2024/welcome-to-blissri/) 📣
 - [Motif Awards Nomination (2024)](/news/2024/motif-nomination/) 🏆
 

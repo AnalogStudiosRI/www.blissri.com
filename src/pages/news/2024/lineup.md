@@ -13,11 +13,11 @@ template: news
   alt="BlissRI icon"
 />
 
-BlissRI is excited to reveal the full lineup and schedule for this year's event and the amazing performs that will be helping us celebrate it!  You can check out our [lineup page](/lineup/) to learn more about all these great acts.
+BlissRI is excited to reveal the full lineup and schedule for this year's event and the amazing performers that will be helping us celebrate it!  You can check out our [lineup page](/lineup/) to learn more about all these great acts.
 
 Below are the start times for each of our performers.
 
-|   Artist                            | Start Time |
+| Artist                              |  Time      |
 |-------------------------------------|------------|
 | Brian Flamand                       |  7:00 pm   |
 | Thee Phibbs                         |  7:45 pm   |

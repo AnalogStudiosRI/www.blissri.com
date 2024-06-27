@@ -35,7 +35,7 @@
 }
 
 table {
-  @apply text-center mr-auto ml-auto text-2xl text-primary font-primary mt-8 md:text-3xl;
+  @apply text-left mr-auto ml-auto md:font-normal text-primary font-primary mt-8 md:text-2xl lg:text-3xl;
 }
 
 table thead {
@@ -43,9 +43,9 @@ table thead {
 }
 
 table tbody {
-  @apply italic text-left;
+  @apply italic;
 }
 
 table tbody td:first-child {
-  @apply mr-4 inline-block;
+  @apply mr-2 md:mr-6 inline-block;
 }

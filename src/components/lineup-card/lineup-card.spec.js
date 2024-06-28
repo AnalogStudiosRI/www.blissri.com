@@ -162,6 +162,7 @@ describe('Components/Lineup Card', () => {
     before(async () => {
       card = document.createElement('bf-lineup-card');
       card.setAttribute('rotation', 'right');
+      card.setAttribute('picture', MOCK_ARTIST.picture);
 
       document.body.appendChild(card);
 
@@ -186,6 +187,7 @@ describe('Components/Lineup Card', () => {
     before(async () => {
       card = document.createElement('bf-lineup-card');
       card.setAttribute('rotation', 'left');
+      card.setAttribute('picture', MOCK_ARTIST.picture);
 
       document.body.appendChild(card);
 

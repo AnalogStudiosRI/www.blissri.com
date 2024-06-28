@@ -30,6 +30,24 @@ function getSocialLinksList(name, socials) {
       </ul>`;
 }
 
+function getPoster(imageUrl, alt) {
+  if (!imageUrl || imageUrl === '') {
+    return '';
+  }
+
+  return `
+    <picture>
+      <img
+        class="bg-slate-50 ml-4 pb-8 pl-2 pr-2 pt-2 drop-shadow-lg lg:pb-12 lg:pl-4 lg:pr-4 lg:pt-4"
+        src="${imageUrl}"
+        alt="Picture of ${alt}"
+        width="500"
+        height="500"
+      />
+    </picture>
+  `;
+}
+
 class LineupCard extends HTMLElement {
   constructor() {
     super();
@@ -65,15 +83,7 @@ class LineupCard extends HTMLElement {
       <article class="flex flex-row">
         <div class="w-1/3">
           <div class="text-center ${rotationClass} ${rotationMargin}">
-            <picture>
-              <img
-                class="bg-slate-50 ml-4 pb-8 pl-2 pr-2 pt-2 drop-shadow-lg lg:pb-12 lg:pl-4 lg:pr-4 lg:pt-4"
-                src="${picture}"
-                alt="Picture of ${name}"
-                width="500"
-                height="500"
-              />
-            </picture>
+            ${getPoster(picture, name)}
           </div>
         </div>
 

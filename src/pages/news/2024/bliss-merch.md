@@ -2,15 +2,6 @@
 template: news
 ---
 
-<!--
-1. [ ] poster images / specs
-1. [ ] final hat mockups (with fixed website address) and optimized
-1. [ ] fancy pantsy the copy
-1. [ ] should we mention the legacy shirts, or just have them at the event?
-1. [ ] should we "frame" the poster?
-1. [ ] final publish date
--->
-
 # BlissRI Merch
 
 <span class="publish-date">Published: July XX, 2024</span>

@@ -6,6 +6,10 @@
   @apply font-secondary text-center text-primary text-4xl mt-16;
 }
 
+#news h3 {
+  @apply font-secondary text-center text-accent text-3xl mt-4;
+}
+
 #news ul {
   @apply mt-4 mb-4 text-center;
 }

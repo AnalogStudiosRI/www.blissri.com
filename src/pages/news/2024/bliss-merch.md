@@ -30,7 +30,7 @@ In addition to hats, we will also have a couple poster options this year.
 This limited run features an exclusive design inspired by the later runtime of this year's event.
 
 <img
-  src="/assets/images/merch/bliss-2024-poster-limited.jpeg"
+  src="/assets/images/merch/bliss-2024-poster-limited.jpg"
   width="508"
   height="787"
   loading="lazy"
@@ -43,7 +43,7 @@ This limited run features an exclusive design inspired by the later runtime of t
 Based on our classic design from last year.
 
 <img
-  src="/assets/images/merch/bliss-2024-poster-classic.jpeg"
+  src="/assets/images/merch/bliss-2024-poster-classic.jpg"
   width="1650"
   height="2550"
   loading="lazy"

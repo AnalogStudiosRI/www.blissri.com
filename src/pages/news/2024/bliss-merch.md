@@ -4,7 +4,7 @@ template: news
 
 # BlissRI Merch
 
-<span class="publish-date">Published: July XX, 2024</span>
+<span class="publish-date">Published: July 22, 2024</span>
 
 Below are the merchandise options we'll be offering for sale exclusively at this year's event.  All designs created by [Erika Flamand](https://www.behance.net/eflamand2ddb).
 
@@ -62,7 +62,7 @@ An homage to last year's design, this classic design is a great way to memoriali
   alt="Blissfest 2023 shirt design"
 />
 
-Missed last year's event?  Get a hold of one of our original shirt design from our 2023 event, or get two for $25!
+Missed last year's event?  Get a hold of our original shirt design from our 2023 event, or get two for $25!
 
 Minted and printed by our friends at [Mint Printworks](https://mintprintworks.com), and featuring a granite colored dye, [this shirt](https://www.ssactivewear.com/p/comfort_colors/1717) is a 100% cotton relaxed fit and will come in a variety of sizes.
 

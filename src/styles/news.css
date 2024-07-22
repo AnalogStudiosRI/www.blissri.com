@@ -34,6 +34,14 @@
   @apply mr-auto ml-auto;
 }
 
+#news img.poster {
+  @apply border-4;
+}
+
+#news img.circle {
+  @apply rounded-full;
+}
+
 #news a {
   @apply underline;
 }

@@ -11,9 +11,10 @@ Below are the merchandise options we'll be offering for sale exclusively at this
 ## Hats ($30)
 
 <img
-  src="/assets/images/merch/bliss-hat.png"
-  width="433"
-  height="342"
+  src="/assets/images/merch/bliss-merch-2024-hat.png"
+  width="368"
+  height="338"
+  class="circle"
   alt="BlissRI hat mockup"
 />
 
@@ -30,9 +31,10 @@ In addition to hats, we will also have a couple poster options this year.
 This limited run features an exclusive design inspired by the later runtime of this year's event.
 
 <img
-  src="/assets/images/merch/bliss-2024-poster-limited.jpg"
-  width="508"
-  height="787"
+  src="/assets/images/merch/bliss-merch-2024-poster-limited.png"
+  width="3300"
+  height="5100"
+  class="poster"
   loading="lazy"
   alt="BlissRI Limited poster mockup"
 />
@@ -43,11 +45,12 @@ This limited run features an exclusive design inspired by the later runtime of t
 Based on our classic design from last year.
 
 <img
-  src="/assets/images/merch/bliss-2024-poster-classic.jpg"
-  width="1650"
-  height="2550"
+  src="/assets/images/merch/bliss-merch-2024-poster-classic.png"
+  width="3300"
+  height="5100"
+  class="poster"
   loading="lazy"
-  alt="BlissRI poster mockup"
+  alt="BlissRI Classic poster mockup"
 />
 
 <!-- ## Shirts ($25)

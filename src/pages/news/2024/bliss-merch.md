@@ -18,17 +18,17 @@ Below are the merchandise options we'll be offering for sale exclusively at this
   alt="BlissRI hat mockup"
 />
 
-Minted and printed by our friends at [Mint Printworks](https://mintprintworks.com), and featuring a flexible fit, [this trucker style hat](https://www.sanmar.com/p/39973_HtrSlvBlk) is a 60/40 cotton/polyester blend on the front and 100% polyester sides and back. 
+Minted and printed by our friends at [Mint Printworks](https://mintprintworks.com), and featuring a flexible fit, [this trucker style hat](https://www.sanmar.com/p/39973_HtrSlvBlk) is a 60/40 cotton / polyester blend on the front and 100% polyester sides and back. 
 
 
 ## Posters
 
-In addition to hats, we will also have a couple poster options this year.
+In addition to hats, we will also have two poster options this year.
 
 
-### Limited Run ($15)
+### "Late Night" Poster ($15)
 
-This limited run features an exclusive design inspired by the later runtime of this year's event.
+This limited edition run features an exclusive design inspired by the later runtime of this year's event.  Get yours before they sell out!
 
 <img
   src="/assets/images/merch/bliss-merch-2024-poster-limited.webp"
@@ -36,13 +36,13 @@ This limited run features an exclusive design inspired by the later runtime of t
   height="5100"
   class="poster"
   loading="lazy"
-  alt="BlissRI Limited poster mockup"
+  alt="BlissRI Limited Edition poster design"
 />
 
 
-### Classic Design ($10)
+### Event Poster ($10)
 
-Based on our classic design from last year.
+An homage to last year's design, this classic design is a great way to memorialize an evening celebrating Rhode Island's music and art communities.
 
 <img
   src="/assets/images/merch/bliss-merch-2024-poster-classic.webp"
@@ -50,7 +50,7 @@ Based on our classic design from last year.
   height="5100"
   class="poster"
   loading="lazy"
-  alt="BlissRI Classic poster mockup"
+  alt="BlissRI Event poster design"
 />
 
 <!-- ## Shirts ($25)

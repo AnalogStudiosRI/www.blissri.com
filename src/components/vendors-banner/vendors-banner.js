@@ -20,11 +20,11 @@ export default class VendorsBanner extends HTMLElement {
   connectedCallback() {
     const vendorsListHtml = this.vendors.map((vendor) => {
       const { name, link } = vendor;
-      const contents = `<span class="font-secondary text-2xl lg:text-3xl">${name}</span>`;
+      const contents = `<span class="font-secondary text-2xl lg:text-3xl xl:text-4xl">${name}</span>`;
       const item = !link
         ? contents
         : `
-          <a href="${link}" title="${name} website">
+          <a href="${link}" title="${name} website" class="underline">
             ${contents}
           </a>
         `;
@@ -39,13 +39,13 @@ export default class VendorsBanner extends HTMLElement {
     this.innerHTML = `
       <div class="text-center">
         <h2
-          class="text-center text-5xl text-accent font-secondary underline mb-4"
+          class="text-center text-5xl text-accent font-secondary underline mb-6"
         >
           Vendors
         </h2>
         
-        <a href="https://www.borunoodlebar.com" title="Boru website" class="md:align-top md:inline-block md:w-1/3 md:text-left lg:w-1/5">
-          <img src="/assets/images/boru.gif" alt="Boru logo"/>
+        <a href="https://www.borunoodlebar.com" title="Boru website" class="inline-block w-2/3 md:align-top md:w-1/4 md:text-left xl:w-1/4">
+          <img src="/assets/images/boru.gif" alt="Boru logo" loading="lazy"/>
         </a>
 
         <div class="md:inline-block md:w-1/4">

@@ -15,7 +15,7 @@ Below are the merchandise options we'll be offering for sale exclusively at this
   width="366"
   height="338"
   class="circle"
-  alt="BlissRI hat mockup"
+  alt="BlissRI hat design"
 />
 
 Minted and printed by our friends at [Mint Printworks](https://mintprintworks.com), and featuring a flexible fit, [this trucker style hat](https://www.sanmar.com/p/39973_HtrSlvBlk) is a 60/40 cotton / polyester blend on the front and 100% polyester sides and back. 
@@ -53,15 +53,19 @@ An homage to last year's design, this classic design is a great way to memoriali
   alt="BlissRI Event poster design"
 />
 
-<!-- ## Shirts ($25)
+## 2023 Shirt ($15)
 
 <img
   src="/assets/images/merch/blissfest-shirt-cross-section.webp"
   width="2000"
   height="883"
-  alt="BlissRI shirt mockup"
+  alt="Blissfest 2023 shirt design"
 />
 
-Minted and printed by our friends at [Mint Printworks](https://mintprintworks.com), this year's BlissRI will be offering shirts for sale.  Featuring a granite colored dye, [this shirt](https://www.ssactivewear.com/p/comfort_colors/1717) is a 100% cotton relaxed fit and will come in a variety of sizes.  -->
+Missed last year's event?  Get a hold of one of our original shirt design from our 2023 event, or get two for $25!
+
+Minted and printed by our friends at [Mint Printworks](https://mintprintworks.com), and featuring a granite colored dye, [this shirt](https://www.ssactivewear.com/p/comfort_colors/1717) is a 100% cotton relaxed fit and will come in a variety of sizes.
+
+----
 
 _All merchandise is exclusive to BlissRI, so make sure to get [your tickets](/tickets/) for the event!_

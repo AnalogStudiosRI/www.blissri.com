@@ -11,8 +11,8 @@ Below are the merchandise options we'll be offering for sale exclusively at this
 ## Hats ($30)
 
 <img
-  src="/assets/images/merch/bliss-merch-2024-hat.png"
-  width="368"
+  src="/assets/images/merch/bliss-merch-2024-hat.webp"
+  width="366"
   height="338"
   class="circle"
   alt="BlissRI hat mockup"
@@ -32,8 +32,8 @@ This limited edition run features an exclusive design inspired by the later runt
 
 <img
   src="/assets/images/merch/bliss-merch-2024-poster-limited.webp"
-  width="3300"
-  height="5100"
+  width="750"
+  height="1159"
   class="poster"
   loading="lazy"
   alt="BlissRI Limited Edition poster design"
@@ -46,8 +46,8 @@ An homage to last year's design, this classic design is a great way to memoriali
 
 <img
   src="/assets/images/merch/bliss-merch-2024-poster-classic.webp"
-  width="3300"
-  height="5100"
+  width="750"
+  height="1159"
   class="poster"
   loading="lazy"
   alt="BlissRI Event poster design"

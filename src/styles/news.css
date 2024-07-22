@@ -39,7 +39,7 @@
 }
 
 #news img.circle {
-  @apply rounded-full;
+  @apply rounded-full w-3/4 md:w-3/5;
 }
 
 #news a {

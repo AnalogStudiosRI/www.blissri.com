@@ -35,7 +35,7 @@
 }
 
 #news img.poster {
-  @apply border-4;
+  @apply border-4 lg:w-3/4 block ml-auto mr-auto;
 }
 
 #news img.circle {

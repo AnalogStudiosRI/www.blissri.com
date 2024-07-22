@@ -13,7 +13,8 @@ export default class VendorsBanner extends HTMLElement {
     }, {
       name: 'Ainsley'
     }, {
-      name: 'Greg Ferreira'
+      name: 'Greg Ferreira',
+      link: 'https://greggygood.com'
     }];
   }
 

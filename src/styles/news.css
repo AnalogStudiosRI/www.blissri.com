@@ -6,6 +6,10 @@
   @apply font-secondary text-center text-primary text-4xl mt-16;
 }
 
+#news h3 {
+  @apply font-secondary text-center text-accent text-3xl mt-4;
+}
+
 #news ul {
   @apply mt-4 mb-4 text-center;
 }
@@ -28,6 +32,14 @@
 
 #news img {
   @apply mr-auto ml-auto;
+}
+
+#news img.poster {
+  @apply border-4 lg:w-3/4 block ml-auto mr-auto;
+}
+
+#news img.circle {
+  @apply rounded-full w-3/4 md:w-3/5;
 }
 
 #news a {

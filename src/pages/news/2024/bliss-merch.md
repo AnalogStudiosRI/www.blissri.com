@@ -42,7 +42,7 @@ This limited edition run features an exclusive design inspired by the later runt
 
 ### Event Poster ($10)
 
-An homage to last year's design, this classic design is a great way to memorialize an evening celebrating Rhode Island's music and art communities.
+An homage to last year's design, this classic design is a great way to remember an evening celebrating Rhode Island's music and art communities.
 
 <img
   src="/assets/images/merch/bliss-merch-2024-poster-classic.webp"

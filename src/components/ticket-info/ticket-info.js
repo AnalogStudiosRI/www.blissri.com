@@ -18,6 +18,7 @@ export default class TicketInfo extends HTMLElement {
         >
           <li>General Admission - &dollar;25</li>
           <li>VIP Package - &dollar;45</li>
+          <li>Children - &dollar;10</li>
           <li>Food &amp; beverage vendors</li>
         </ul>
       </div>

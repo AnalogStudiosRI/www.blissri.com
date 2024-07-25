@@ -12,9 +12,6 @@ export default class VendorsBanner extends HTMLElement {
       link: 'https://www.bodiesofwaste.com/'
     }, {
       name: 'Ainsley'
-    }, {
-      name: 'Greg Ferreira',
-      link: 'https://greggygood.com'
     }];
   }
 

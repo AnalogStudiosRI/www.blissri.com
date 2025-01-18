@@ -1,5 +1,5 @@
 ---
-template: news
+layout: news
 ---
 
 # BlissRI Merch

@@ -1,6 +1,6 @@
 ---
 label: 'news'
-template: news
+layout: news
 ---
 
 # News and Announcements

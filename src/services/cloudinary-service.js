@@ -1,4 +1,3 @@
-/* eslint-disable camelcase */
 import * as cloudinary from 'cloudinary';
 
 const MAX_RESULTS = 500; // doubt we'll ever hit this limit...

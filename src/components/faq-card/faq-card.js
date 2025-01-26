@@ -1,4 +1,4 @@
-class FAQCard extends HTMLElement {
+export default class FAQCard extends HTMLElement {
   connectedCallback() {
     const content = this.getAttribute('content');
     const heading = this.getAttribute('heading');

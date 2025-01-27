@@ -1,4 +1,3 @@
-/* eslint-disable max-len */
 export default class EventDetails extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `

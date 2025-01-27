@@ -1,5 +1,5 @@
 ---
-template: news
+layout: news
 ---
 
 # Learn About Blissfest

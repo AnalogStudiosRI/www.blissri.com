@@ -1,5 +1,3 @@
-/* eslint-disable max-len */
-
 // startTime is in  milliseconds relative to local time (EST)
 const LINEUP = [{
   isHeadliner: true,

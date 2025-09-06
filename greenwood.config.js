@@ -6,5 +6,10 @@ export default {
     greenwoodPluginPostCss({
       extendConfig: true
     })
-  ]
+  ],
+  markdown: {
+    plugins: [
+      "remark-gfm"
+    ]
+  }
 };

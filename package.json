@@ -17,9 +17,9 @@
   ],
   "scripts": {
     "dev": "greenwood develop",
-    "dev:env": "node --env-file=.env ./node_modules/@greenwood/cli/src/index.js develop",
+    "dev:env": "node --env-file=.env ./node_modules/@greenwood/cli/src/bin.js develop",
     "build": "greenwood build",
-    "build:env": "node --env-file=.env ./node_modules/@greenwood/cli/src/index.js build",
+    "build:env": "node --env-file=.env ./node_modules/@greenwood/cli/src/bin.js build",
     "serve": "greenwood serve",
     "serve:env": "npm run build:env && greenwood serve",
     "story:dev": "storybook dev -p 6006",
